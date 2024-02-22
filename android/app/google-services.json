@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "849096143840",
+    "project_id": "fir-application-af557",
+    "storage_bucket": "fir-application-af557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849096143840:android:48fc631eee4009a13a3185",
+        "android_client_info": {
+          "package_name": "com.adeel.firebase.firebase_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6UnQkdu__1Giz05J8AgAHdN5Z9bPoucw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
