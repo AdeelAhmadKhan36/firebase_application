@@ -1,5 +1,6 @@
 import 'package:firebase_application/Firestore%20Database/firestore_screen.dart';
 import 'package:firebase_application/Realtime_%20Database/posts/post_screen.dart';
+import 'package:firebase_application/Upload_Image/upload_image.dart';
 import 'package:firebase_application/firebase_options.dart';
 import 'package:firebase_application/home.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Firestore_Screen(),
+      home: const FilePickScreen(),
     );
   }
 }
