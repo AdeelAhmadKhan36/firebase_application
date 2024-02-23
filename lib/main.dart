@@ -1,8 +1,7 @@
-import 'package:firebase_application/Firestore%20Database/firestore_screen.dart';
-import 'package:firebase_application/Realtime_%20Database/posts/post_screen.dart';
-import 'package:firebase_application/Upload_Image/upload_image.dart';
+
 import 'package:firebase_application/firebase_options.dart';
 import 'package:firebase_application/home.dart';
+import 'package:firebase_application/view/Upload_Image/upload_image.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
