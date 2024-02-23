@@ -1,3 +1,4 @@
+import 'package:firebase_application/Firestore%20Database/firestore_screen.dart';
 import 'package:firebase_application/Realtime_%20Database/posts/post_screen.dart';
 import 'package:firebase_application/firebase_options.dart';
 import 'package:firebase_application/home.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Post_Screen(),
+      home: const Firestore_Screen(),
     );
   }
 }
